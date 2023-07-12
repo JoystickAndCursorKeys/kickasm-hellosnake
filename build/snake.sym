@@ -1,0 +1,59 @@
+.label scoreup=$2217 {
+  .label dig3_is9=$2222
+  .label dig2_is9=$2232
+  .label dig0_is9=$2252
+  .label dig1_is9=$2242
+}
+.label initlevel=$2257 {
+}
+.label xy=$2010
+.label game=$220d {
+}
+.label lives=$2012
+.label bgcolors=$21a4 {
+}
+.label start=$2000
+.label scr_clear=$211f {
+  .label l1=$2123
+  .label l2=$212d
+  .label l3=$2137
+  .label l4=$2141
+  .label l5=$214b
+}
+.label program=$2116 {
+}
+.label title=$21db {
+  .label title_loop=$21de {
+  }
+  .label scroll_loop=$21e7 {
+  }
+}
+.label score=$200c
+.label random=$2013
+.label title_str=$2004
+.label random_counter=$2113
+.label scr_scrollup=$2156 {
+  .label l1=$2158
+  .label l2=$2165
+  .label l3=$2172
+  .label l4=$217f
+  .label l5=$218c
+  .label l6=$219b
+}
+.label levelloop=$2284 {
+  .label exit=$2301
+  .label if1=$22e2
+  .label loop=$2284 {
+  }
+  .label lscore=$2296
+  .label else1=$22f0
+  .label dieloop=$2303 {
+  }
+  .label endjoy=$22fe
+}
+.label save_y=$2115
+.label save_x=$2114
+.label titlescreendraw=$21ab {
+  .label l1=$21c1
+  .label l2=$21cf
+}
