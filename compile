@@ -1,0 +1,5 @@
+main=`cat prj.cfg | grep main= | sed s/main=//`
+kickasm=`cat tools.cfg | grep kickasm= | sed s/kickasm=//`
+
+set -e
+$kickasm  src/${main}.asm -odir ../build
